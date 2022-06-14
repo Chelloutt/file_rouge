@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+header{
+    background-color: #010101;
+    display: flex;
+    width: 100%;
+}
+img{
+    width: 10%;
+}
+ul  {
+    text-decoration: none;
+    list-style:none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 100px;
+}
+li{
+    text-decoration: none;
+}
+ header a{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 100px;
+    color: white;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+}
+
+input{
+    margin: 10px;
+    width: 200px;
+    height: 35px;
+    color: #7F8C97;
+    padding: .6rem .8rem;
+    border: 1px solid #C0C6CC;
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 65%;
+}
+
+.card{
+    padding: 20px;
+}
