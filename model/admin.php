@@ -8,55 +8,14 @@
     <title>Admin</title>
 </head>
 <body>
-    <h1>ADMIN ZONE</h1>
+   <h1>'Run your website <br> in your way'</h1>
+   <br><br>
 
-    <main>
-
-    <h3>Add a post</h3>
-        <form action="insert.php" method="post" enctype="multipart/form-data">
-        <div class="forms">
-            
-            
-            <label id="title">
-            Title :<br><input name="title" type="text" placeholder="Enter Title" required>
-
-            
-            <label id="author"><br>
-            author :<br><input name="author" type="text" placeholder="author" required>
-
-            <label id="content"><br>
-            content :<br><textarea name="content" id="content" cols="70" rows="25" placeholder="Add content" required></textarea><br>
-
-             <input list="category" name="category" placeholder="select category" required>
-                <datalist id="categoy">
-                    <option value="Sport">
-                    <option value="Art">
-                    <option value="Politics">
-                    <option value="Culture">
-                </datalist>
-
-            <label id="photo"><br>
-            photo :<br><input name="image" type="file" placeholder="upload picture" required>
-
-            <label id="date"><br>
-            date :<br><input name="date" type="date"><br>
-
-            <button name="submit">Submit</button>
-
-
-            
-        </label>
-
-        </div>
-        </form>
-    </main>
-
-
-
-
-
-
-
+  <center>
+   <a href="add.php">add a post</a>
+   <a href="posts.php">View posts</a>
+   
+   </center>
 
 
 </body>

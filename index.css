@@ -10,7 +10,7 @@ header{
     display: flex;
     width: 100%;
 }
-img{
+#logo{
     width: 10%;
 }
 ul  {
@@ -46,7 +46,20 @@ input{
     border-radius: 10px;
     margin-left: 65%;
 }
-
 .card{
-    padding: 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
 }
+
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+   
+}
+
+

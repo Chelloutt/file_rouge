@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+header{
+    background-color: #010101;
+    display: flex;
+}
+img{
+    width: 10%;
+}
+ul  {
+    text-decoration: none;
+    list-style:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 50px;
+    color: white;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+}
+input{
+    padding: 10px;
+    margin-left:20px;
+
+}
+::placeholder{
+    font-family: italic;
+}
