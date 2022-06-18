@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleindex.css">
     <title>Home</title>
 </head>
 <body>
@@ -18,6 +18,7 @@
             <li><a href="">Culture</a></li>
         </ul>
         <input type="text" id="srch" placeholder="search">
+       
 
      <!-- END HEADER -->
     </header>
@@ -26,6 +27,7 @@
     <!-- START MAIN -->
 
     <main>
+        <h1 id="greeting"></h1>
         <h1>Select your subject</h1>
         <div class="cards">
             <!-- CARD 1 -->
@@ -86,6 +88,21 @@
     </main>
 
 
-    
+    <footer>
+        <h1>Explore more about us</h1>
+        <ul>
+            <li>SPORT |</li>
+            <li>POLITICS |</li>
+            <li>ART |</li>
+            <li>CULTURE</li>
+        </ul><br>
+        <hr><br>
+        <center>
+            <p>Copyright © 2022 . The Website is not responsible for the content of external sites. Read about our approach to external linking.</p>
+        </center>
+    </footer>
+
+
+    <script src="main.js"></script>
 </body>
 </html>

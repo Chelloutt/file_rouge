@@ -44,6 +44,7 @@ input{
     border: 1px solid #C0C6CC;
     background: #fff;
     border-radius: 10px;
+    margin-left: 5%;
     
 }
 
@@ -56,7 +57,12 @@ body{
 }
 
 body h1{
-    padding: 10px;
+    padding: 20px;
+}
+#greeting{
+    color: #53BF9D;
+    text-align: center;
+    font-style: italic;
 }
 .cards{
     display: grid;
@@ -108,6 +114,33 @@ img{
     line-height: 30px;
     font-weight: 400;
 }
-#btn{
-    color: red;
+#search_bar{
+
+    align-content: center;
 }
+footer{
+    background-color: #4C4C4C;
+    width: 100%;
+
+    
+}
+footer h1{
+    color: #fff;
+}
+ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+}
+
+    

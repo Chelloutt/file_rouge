@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index1.css">
     <title>POLITICS | NEWS</title>
 </head>
 <body>
@@ -39,7 +38,7 @@
         <img class='card-img-top' src='./images/$row[photo]' style='width : 100%'>
         <div class='card-body'>
           <h5 class='card-title'>$row[title]</h5>
-          <a href='#' class='btn btn-primary'>Read More</a>
+          <a href='detail.php?id=$row[id]' class='btn btn-primary'>Read More</a>
         </div>
       </div>
         
@@ -49,6 +48,19 @@
     ?>
     </div>
 
-    </main>
+    </main><br><br>
+    <footer>
+        <h1>Explore more about us</h1>
+        <ul>
+            <li>SPORT |</li>
+            <li>POLITICS |</li>
+            <li>ART |</li>
+            <li>CULTURE</li>
+        </ul>
+        <hr>
+        <center>
+            <p>Copyright © 2022 . The Website is not responsible for the content of external sites. Read about our approach to external linking.</p>
+        </center>
+    </footer>
 </body>
 </html>
