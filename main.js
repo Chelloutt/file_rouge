@@ -1,6 +1,6 @@
-const time = new Date().getHours();
+let time = new Date().getHours();
 let greeting;
-if (time < 10) {
+if (time < 12) {
   greeting = '"Good morning there!"';
 } else if (time < 20) {
   greeting = '"Good day there!"';
@@ -8,3 +8,5 @@ if (time < 10) {
   greeting = '"Good evening there!"';
 }
 document.getElementById("greeting").innerHTML = greeting
+
+

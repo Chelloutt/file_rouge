@@ -18,7 +18,6 @@
     $insert = "INSERT INTO `news`(`id`, `title`, `content`, `category`,  `photo`, `date`, `author`) VALUES ('value-1','$NAME','$CONTENT', '$CATEGORY','$image_up','$DATE','$AUTHOR')";
      
 
-    
     mysqli_query($con, $insert);
 
     if(move_uploaded_file($image_location,'./images/'. $image_name)){
@@ -30,8 +29,16 @@
     header('location: admin.php');
  }
 
+ if(isset($_POST['sub_comm'])){
+    $comment = $_POST['comment'];
+    $name = $_POST['name'];
 
- 
+    $insert = "INSERT INTO `comments`( `name`,`comment`) VALUES ('$name','$comment')";
+    mysqli_query($con, $insert);
+}
+
+
+
 
 
 

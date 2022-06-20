@@ -118,6 +118,7 @@ img{
 
     align-content: center;
 }
+
 footer{
     background-color: #4C4C4C;
     width: 100%;
@@ -142,5 +143,7 @@ footer p{
     color: #fff;
     font-size: 15px;
 }
-
+textarea{
+    padding: 10px;
+}
     

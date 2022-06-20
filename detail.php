@@ -49,6 +49,14 @@ while ($row = mysqli_fetch_array($result)){
 
 
 ?>
+<hr><br>
+
+<form action="./model/insert.php" method="POST">
+     <label id="comment">comment : <br>
+    <textarea name="comment"cols="50" rows="15" placeholder="leave a comment"></textarea>
+    <input type="text" name="name" placeholder="your name" required><br>
+    <button type="submit" name="sub_comm">submit</button>
+</form>
     
 </body>
 </html>
