@@ -4,16 +4,16 @@
 
  if (isset($_POST['submit'])){
 
-    $NAME = $_POST['title'];
+    $NAME = htmlspecialchars($_POST['title']);
     $AUTHOR = $_POST['author'];
     $CONTENT = htmlspecialchars($_POST['content']);
     $CATEGORY = $_POST['category'];
-    $IMAGE = $_POST['image'];
+    $IMAGE = htmlspecialchars($_POST['image']);
     $DATE = $_POST['date'];
 
     $image_location = $_FILES ['image']['tmp_name'];
     $image_name = $_FILES ['image']['name'];
-    $image_up = $image_name;
+    $image_up = htmlspecialchars($image_name);
 
     $insert = "INSERT INTO `news`(`id`, `title`, `content`, `category`,  `photo`, `date`, `author`) VALUES ('value-1','$NAME','$CONTENT', '$CATEGORY','$image_up','$DATE','$AUTHOR')";
      
@@ -32,9 +32,12 @@
  if(isset($_POST['sub_comm'])){
     $comment = $_POST['comment'];
     $name = $_POST['name'];
+   
 
     $insert = "INSERT INTO `comments`( `name`,`comment`) VALUES ('$name','$comment')";
     mysqli_query($con, $insert);
+
+    
 }
 
 

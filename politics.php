@@ -38,6 +38,8 @@
         <img class='card-img-top' src='./images/$row[photo]' style='width : 100%'>
         <div class='card-body'>
           <h5 class='card-title'>$row[title]</h5>
+          <p class='card-text'>$row[date]</p>
+          <p class='card-text'>$row[category]</p>
           <a href='detail.php?id=$row[id]' class='btn btn-primary'>Read More</a>
         </div>
       </div>
